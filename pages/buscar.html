@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ACME</title>
+	<link rel="stylesheet" href="../css/estilos.css">
+</head>
+
+<body >
+  <section class="header">
+	<nav class="nav">
+		<a href="../index.html" class="marca">ACME</a>
+		<ul id=menu class=menu>
+			<li data-menuanchor="inicio">
+				<a href="cotizar.html">Cotizar</a>
+			</li>
+			<li data-menuanchor="ingresa" >
+					<a href="stock.html">Stock</a>
+			</li>
+			<li data-menuanchor="unete">
+						<a href="login.html">Salir</a>
+			</li>
+		</ul>
+	</nav>
+</section>
+<section class="StockAcme">
+<div class="StockAcme">
+
+
+<p>Datos del cliente</p>
+<table border=1 class="TablasStock">
+	<thead>
+  	<tr>
+  	<td>ID</td>
+  	<td>Nombre</td>
+  	<td>Telefono</td>
+  	<td>Direcci&oacute;n </td>
+  	<td>Credito</td>
+  	</tr>
+  </thead>
+    <tbody>
+      	<tr>
+        	<td data-label="Id cliente:">1061765</td>
+        	<td data-label="Nombre:">Juan Lopez</td>
+        	<td data-label="Telefono:">3121204</td>
+        	<td data-label="Direccion:">Cr x#</td>
+        	<td data-label="Cuenta:">Cr&eacute;dito</td>
+      	</tr>
+	  </tbody>
+	</table>
+	<p>Compras</p>
+      	<table border=1 class="TablasStock">
+      	<thead>
+      	<tr>
+        	<td>Nombre</td>
+        	<td>Marca</td>
+        	<td>Modelo</td>
+        	<td>Descripcion </td>
+        	<td>Precio</td>
+        	<td>Cantidad</td>
+        	<td>Precio Total</td>
+      	</tr>
+       </thead>
+        <tbody>
+      	<tr>
+        	<td data-label="Nombre:">Producto 1</td>
+        	<td data-label="Marca:">Acme</td>
+        	<td data-label="Modelo:">2010</td>
+        	<td data-label="Descripcion:">Describeme</td>
+        	<td data-label="Precio:">$10000</td>
+        	<td data-label="Cantidad:">1</td>
+        	<td data-label="Precio total:">$10000</td>
+      	</tr>
+      	<tr>
+        	<td data-label="Nombre:">Producto 2</td>
+        	<td data-label="Marca:">Acme</td>
+        	<td data-label="Modelo:">2001</td>
+        	<td data-label="Descripcion:">Describeme </td>
+        	<td data-label="Precio:">$20000</td>
+        	<td data-label="Cantidad:">3</td>
+        	<td data-label="Precio total:">$60000</td>
+      	</tr>
+      	<tr>
+        	<td data-label="Nombre:">Producto 3</td>
+        	<td data-label="Marca:">Acme</td>
+        	<td data-label="Modelo:">2009</td>
+        	<td data-label="Descripcion:">Describeme</td>
+        	<td data-label="Precio:">$30000</td>
+        	<td data-label="Cantidad:">1</td>
+        	<td data-label="Precio total:">30000</td>
+      	</tr>
+      	</tbody>
+      	</table>
+	<p>Cotizaci&oacute;n</p>
+  	<table border=1 class="TablasStock">
+  	<thead>
+  		<tr>
+    		<td>Nombre</td>
+    		<td>Marca</td>
+    		<td>Modelo</td>
+    		<td>Descripoci&oacute;n</td>
+    		<td>Precio</td>
+    		<td>Cantidad</td>
+    		<td>Precio Total </td>
+  		</tr>
+    </thead>
+      <tbody>
+  		<tr>
+    		<td data-label="Nombre:">Producto 1</td>
+    		<td data-label="Marca:">Acme</td>
+    		<td data-label="Modelo:">2010</td>
+    		<td data-label="Descripcion:">Describeme</td>
+    		<td data-label="Precio:">$20000</td>
+    		<td data-label="Cantidad:">1</td>
+    		<td data-label="Precio total:">$20000</td>
+  		</tr>
+  		<tr>
+    		<td data-label="Nombre:">Producto 2</td>
+    		<td data-label="Marca:">Acme</td>
+    		<td data-label="Modelo:">2001</td>
+    		<td data-label="Descripcion:">Describeme</td>
+    		<td data-label="Precio:">$10000</td>
+    		<td data-label="Cantidad:">3</td>
+    		<td data-label="Precio total:">$30000</td>
+  		</tr>
+  		<tr>
+    		<td data-label="Nombre:">Producto 3</td>
+    		<td data-label="Marca:">Acme</td>
+    		<td data-label="Modelo:">2009</td>
+    		<td data-label="Descripcion:">Describeme</td>
+    		<td data-label="Precio:">$30000</td>
+    		<td data-label="Cantidad:">1</td>
+    		<td data-label="Precio total:">$30000</td>
+  		</tr>
+  	</tbody>
+ </table>
+ <a href="agregaroperario.html">Agregar operario  </a><br>
+ <a href="actualizaroperario.html">Actualizar operario  </a><br>
+ <a href="agregarprod.html">Agregar producto  </a><br>
+ <a href="actualizarprod.html">Actualizar producto  </a>
+</div>
+</section>
+<footer class="section footpage">
+		<div class="texto-azul">Dirección calle xx-xx-xx Telefono xxxxxx siguenos en nuestras redes</div>
+		<p class="redes-sociales">
+			<a href="" class="facebook"><i class="fab fa-facebook-square"></i></a>
+			<a href="" class="instagram"><i class="fab fa-instagram"></i></a>
+			<a href="" class="twitter"><i class="fab fa-twitter-square"></i></a>
+		</p>
+</footer>
+</body>
+</html>
