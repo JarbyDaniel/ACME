@@ -27,6 +27,27 @@ body {
   height: 20%;
   display:flex;
 }
+.mapa{
+  padding-top: 70px;
+  top: 30px;
+
+  margin: auto;
+  width: 30%;
+  height: 25%;
+  position: fixed;
+  left: 200px;
+}
+
+.login2{
+  width: 30%;
+  height: 30%;
+padding: top: 50px;
+top: 30px ;
+position:fixed;
+right: 200px;
+
+
+}
 
 aside{
 
