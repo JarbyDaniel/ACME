@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ACME</title>
+	<link rel="stylesheet" href="../css/estilos.css">
+</head>
+
+<body >
+  <section class="header">
+	<nav class="nav">
+		<a href="../index.html" class="marca">ACME</a>
+		<ul id=menu class=menu>
+			<li data-menuanchor="inicio">
+				<a href="cotizar.html">Cotizar</a>
+			</li>
+			<li data-menuanchor="ingresa" >
+					<a href="stock.html">Stock</a>
+			</li>
+			<li data-menuanchor="unete">
+						<a href="login.html">Salir</a>
+			</li>
+		</ul>
+	</nav>
+</section>
+<section class="StockAcme">
+<div class="StockAcme">
+
+  <p><strong>Datos del cliente</strong></p>
+  <table border="1" class="TablasStock">
+    <thead>
+      <tr>
+        <td >ID</td>
+        <td >Nombre</td>
+        <td >Telefono</td>
+        <td >Direcci&oacute;n&nbsp;</td>
+        <td >Credito</td>
+</tr>
+</thead>
+    <tbody>
+      <tr>
+          <td data-label = "ID:">10617383</td>
+          <td  data-label = "Nombre:">Pedro Perez</td>
+          <td  data-label = "Telefono:">31272344561</td>
+          <td  data-label = "Dirección:">Cr x # xx</td>
+          <td  data-label = "Credito:">Cr&eacute;dito</td>
+</tr>
+
+    </tbody>
+</table>
+<p><strong>Compras</strong></p>
+<table border="1" class ="TablasStock">
+  <thead>
+       <tr>
+            <td>ID</td>
+            <td >Nombre</td>
+            <td >Marca</td>
+            <td >Modelo</td>
+            <td >Precio</td>
+            <td >Cant</td>
+            <td >Precio Total</td>
+            <td >Fecha</td>
+  </tr>
+  </thead>
+  <tbody>
+
+    <tr>
+          <td data-label = "ID:">324</td>
+          <td data-label = "Nombre:">Producto1</td>
+          <td data-label = "Marca:">ACME</td>
+          <td data-label = "Modelo:">2019</td>
+          <td data-label = "Precio:">$20000</td>
+          <td data-label = "Cant:">1</td>
+          <td data-label = "Precio Total:">$20000</td>
+          <td data-label = "Fecha:">12-Sep-2020</td>
+    </tr>
+    <tr>
+          <td data-label ="ID:">323</td>
+          <td data-label ="Nombre:">Producto2</td>
+          <td data-label ="Marca:">ACME</td>
+          <td data-label ="Modelo:">2010</td>
+          <td data-label ="Precio:">$15000</td>
+          <td data-label ="Cant:">2</td>
+          <td data-label ="Precio Total:">$30000</td>
+          <td data-label ="Fecha:">11-Sep-2020</td>
+    </tr>
+
+    <tr>
+          <td data-label ="ID:">322</td>
+          <td data-label ="Nombre:">Producto3</td>
+          <td data-label ="Marca:">ACME</td>
+          <td data-label ="Modelo:">2018</td>
+          <td data-label ="Precio:">$25000</td>
+          <td data-label ="Cant:">3</td>
+          <td data-label ="Precio Total:">$75000</td>
+          <td data-label ="Fecha:">20-Ago-2020</td>
+    </tr>
+
+  </tbody>
+</table>
+<p><strong>Cotizaci&oacute;n</strong></p>
+<table border="1" class ="TablasStock">
+  <thead>
+    <tr>
+          <td>ID</td>
+          <td>Nombre</td>
+          <td>Marca</td>
+          <td>Modelo</td>
+          <td>Precio</td>
+          <td>Cant</td>
+          <td>Precio Total</td>
+          <td>Fecha</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+          <td data-label = "ID:">3245</td>
+          <td data-label = "Nombre:">Producto1</td>
+          <td data-label = "Marca:">ACME</td>
+          <td data-label = "Modelo:">2019</td>
+          <td data-label ="Precio:">$20000</td>
+          <td data-label ="Cant:">1</td>
+          <td data-label ="Precio Total:">$20000</td>
+          <td data-label ="Fecha:">12-Sep-2020</td>
+    </tr>
+    <tr>
+          <td data-label = "ID:">3346</td>
+          <td data-label = "Nombre:">Producto2</td>
+          <td data-label = "Marca:">ACME</td>
+          <td data-label = "Modelo:">2010</td>
+          <td data-label ="Precio:">$15000</td>
+          <td data-label ="Cant:">2</td>
+          <td data-label ="Precio Total:">$30000</td>
+          <td data-label ="Fecha:">11-Sep-2020</td>
+    </tr>
+    <tr>
+          <td data-label = "ID:">3154</td>
+          <td data-label = "Nombre:">Producto3</td>
+          <td data-label = "Marca:">ACME</td>
+          <td data-label = "Modelo:">2018</td>
+          <td data-label ="Precio:">$25000</td>
+          <td data-label ="Cant:">3</td>
+          <td data-label ="Precio Total:">$75000</td>
+          <td data-label ="Fecha:">20-Ago-2020</td>
+    </tr>
+
+  </tbody>
+</table>
+
+
+</div>
+</section>
+<footer class="section footpage">
+		<div class="texto-azul">Dirección calle xx-xx-xx Telefono xxxxxx siguenos en nuestras redes</div>
+		<p class="redes-sociales">
+			<a href="" class="facebook"><i class="fab fa-facebook-square"></i></a>
+			<a href="" class="instagram"><i class="fab fa-instagram"></i></a>
+			<a href="" class="twitter"><i class="fab fa-twitter-square"></i></a>
+		</p>
+</footer>
+</body>
+</html>

@@ -13,10 +13,10 @@
 		<a href="../index.html" class="marca">ACME</a>
 		<ul id=menu class=menu>
 			<li data-menuanchor="inicio">
-				<a href="cotizar.html">Cotizar</a>
+				<a href="cotizar.html">Stock</a>
 			</li>
 			<li data-menuanchor="ingresa" >
-					<a href="stock.html">Stock</a>
+					<a href="stock.html">usuarios</a>
 			</li>
 			<li data-menuanchor="unete">
 						<a href="login.html">Salir</a>
@@ -28,7 +28,13 @@
 <div class="StockAcme">
   <p><strong>Gestion de Usuarios</strong></p>
   <p><strong></strong></p>
-  <p><strong>Id Operador:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;A&ntilde;adir</strong></p>
+</div>
+<div>
+  <p><strong>Id Operador:</strong></p>
+  <input type="text" name="idop" size="5">
+  <button type="submit" class="button button-block">Buscar</button>
+  </div>
+  <p><strong><img src="../media/mas.png" width="20" height="20">A&ntilde;adir</strong></p>
   <table border="1" class ="TablasStock">
     <thead>
 
@@ -38,57 +44,60 @@
       <td >Telefono</td>
       <td >Direcci&oacute;n&nbsp;</td>
       <td >Cuenta</td>
-      <td style="width: 16.6667%; height: 18px;"colspan="2">Acci&oacute;n</td>
+      <td colspan="2">Acci&oacute;n</td>
 
       </tr>
     </thead>
     <tbody>
           <tr >
-             <td data-label="ID">10617383</td>
-             <td data-label="Nombre">Pedro Perez</td>
-             <td data-label="Telefono">31272344561</td>
-             <td data-label="Dirección">Cr x # xx</td>
-             <td data-label="Cuenta">xxxxxxxxx</td>
-             <td data-label="Acción">Modificar</td>
-             <td data-label="Acción">Eliminar</td>
+             <td data-label="ID: ">10617383</td>
+             <td data-label="Nombre: ">Pedro Perez</td>
+             <td data-label="Telefono: ">31272344561</td>
+             <td data-label="Dirección: ">Cr x # xx</td>
+             <td data-label="Cuenta: ">xxxxxxxxx</td>
+             <td  data-label="Modificar: ">Modificar</td>
+             <td  data-label="Eliminar: ">Eliminar</td>
          </tr>
          <tr >
-             <td data-label"ID">10617832</td>
-             <td  data-label"Nombre">Pepe Sanchez</td>
-             <td  data-label"Telefono">3217812982</td>
-             <td  data-label"Dirección">Cr x # xx</td>
-             <td  data-label"Cuenta">xxxxxxxxx</td>
-             <td  data-label"Acción">Modificar</td>
-             <td  data-label"Acción">Eliminar</td>
+             <td data-label="ID: ">10617832</td>
+             <td  data-label="Nombre: ">Pepe Sanchez</td>
+             <td  data-label="Telefono: ">3217812982</td>
+             <td  data-label="Dirección: ">Cr x # xx</td>
+             <td  data-label="Cuenta: ">xxxxxxxxx</td>
+             <td  data-label="Modificar: ">Modificar</td>
+             <td  data-label="Eliminar: ">Eliminar</td>
          </tr>
          <tr >
-             <td data-label"ID">10817835</td>
-             <td  data-label"Nombre">Lucas Diaz</td>
-             <td  data-label"Telefono">3238903456</td>
-             <td  data-label"Dirección">Cr x # xx</td>
-             <td  data-label"Cuenta">xxxxxxxxx</td>
-             <td  data-label"Acción">Modificar</td>
-             <td  data-label"Acción">Eliminar</td>
+             <td data-label="ID: ">10817835</td>
+             <td  data-label="Nombre: ">Lucas Diaz</td>
+             <td  data-label="Telefono: ">3238903456</td>
+             <td  data-label="Dirección: ">Cr x # xx</td>
+             <td  data-label="Cuenta: ">xxxxxxxxx</td>
+             <td  data-label="Modificar: ">Modificar</td>
+             <td  data-label="Eliminar: ">Eliminar</td>
          </tr>
          <tr >
-             <td data-label="ID">10617285</td>
-             <td  data-label="Nombre">Jarby Ortiz</td>
-             <td  data-label="Telefono">3124567890</td>
-             <td  data-label="Dirección">Cr x # xx</td>
-             <td  data-label="Cuenta">xxxxxxxxx</td>
-             <td  data-label="Acción">Modificar</td>
-             <td  data-label="Acción">Eliminar</td>
+             <td data-label="ID: ">10617285</td>
+             <td  data-label="Nombre: ">Jarby Salazar</td>
+             <td  data-label="Telefono: ">3124567890</td>
+             <td  data-label="Dirección: ">Cr x # xx</td>
+             <td  data-label="Cuenta: ">xxxxxxxxx</td>
+             <td  data-label="Modificar: ">Modificar</td>
+             <td  data-label="Eliminar: ">Eliminar</td>
          </tr>
     </tbody>
   </table>
-
-<p><strong>ID Cliente</strong></p>
+<div>
+<p><strong>ID Cliente:</strong></p>
+<input type="text" name="idop" size="5" placeholder="10617383">
+<button type="submit">Buscar</button>
+</div>
 <table border="1" class ="TablasStock">
 <thead>
   <tr>
-    <td ></td>
+    <td ><img src="../media/reporte.png" width="20" height="20"></td>
     <td >ID</td>
-    <td >&nbsp;Nonmbre</td>
+    <td >&nbsp;Nombre</td>
     <td >Telefono&nbsp;</td>
     <td >Direcci&oacute;n</td>
     <td >Credito</td>
@@ -97,7 +106,7 @@
 </thead>
 <tbody>
   <tr>
-    <td  data-label=""></td>
+    <td  data-label="Reporte">2</td>
     <td  data-label="ID">10617383</td>
     <td  data-label="Nombre">Juan Lopez</td>
     <td  data-label="Telefono">3215678954</td>

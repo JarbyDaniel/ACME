@@ -26,15 +26,17 @@
 </section>
 <section class="StockAcme">
 <div class="StockAcme">
-
-
-<p>Administrador productos del stock</p>
-
-  <p>Productos del Stock</p>
-  <p>Nombre:</p>
+<p><strong>Productos del Stock</strong></p>
+<div>
+  <p><strong>Nombre:</strong></p>
+  <input type="text" name="idop" size="5" placeholder="Buscar">
+  <button type="submit">Buscar</button>  
+  </div>
+  
 <table border=1 class="TablasStock">
   <thead>
   <tr>
+    <td><img src="../media/vision.png" width="20" height="20"></td>
     <td>C&oacute;digo</td>
     <td>Nombre</td>
     <td>Marca</td>
@@ -47,6 +49,7 @@
 </thead>
   <tbody>
   <tr>
+    <td data-label="Disponibilidad:"><img src="../media/si.png" width="20" height="20"></td>    
     <td data-label="Codigo:">21327</td>
     <td data-label="Nombre:">Producto1</td>
     <td data-label="Marca:">Acme</td>
@@ -58,6 +61,7 @@
   <td>Eliminar</td>
   </tr>
   <tr>
+    <td data-label="Disponibilidad:"><img src="../media/si.png" width="20" height="20"></td>  
     <td data-label="Codigo:">74734</td>
     <td data-label="Nombre:">Producto2</td>
     <td data-label="Marca:">Acme</td>
@@ -69,32 +73,38 @@
     <td>Eliminar</td>
   </tr>
   <tr>
-  <td data-label="Codigo:">12371</td>
-  <td data-label="Nombre:">Producto3</td>
-  <td data-label="Marca:">Acme</td>
-  <td data-label="Modelo:">2001</td>
-  <td data-label="Ubicacion:">Vitrina</td>
-  <td data-label="Descripcion:">Describeme</td>
-  <td data-label="Precio:">$10000</td>
-  <td><span style="text-decoration: underline;"><a href="actualizarprod.html">Modificar</a></span></td>
-  <td>Eliminar</td>
+    <td data-label="Disponibilidad:"><img src="../media/no.png" width="20" height="20"></td>  
+    <td data-label="Codigo:">12371</td>
+    <td data-label="Nombre:">Producto3</td>
+    <td data-label="Marca:">Acme</td>
+    <td data-label="Modelo:">2001</td>
+    <td data-label="Ubicacion:">Vitrina</td>
+    <td data-label="Descripcion:">Describeme</td>
+    <td data-label="Precio:">$10000</td>
+    <td><span style="text-decoration: underline;"><a href="actualizarprod.html">Modificar</a></span></td>
+    <td>Eliminar</td>
   </tr>
   <tr>
-  <td data-label="Codigo:">34321</td>
-  <td data-label="Nombre:">Producto4</td>
-  <td data-label="Marca:">Acme</td>
-  <td data-label="Modelo:">2004</td>
-  <td data-label="Ubicacion:">Bodega</td>
-  <td data-label="Descripcion:">Describeme</td>
-  <td data-label="Precio:">$20000</td>
-  <td><span style="text-decoration: underline;"><a href="actualizarprod.html">Modificar</a></span></td>
-  <td>Eliminar</td>
+    <td data-label="Disponibilidad:"><img src="../media/si.png" width="20" height="20"></td>  
+    <td data-label="Codigo:">34321</td>
+    <td data-label="Nombre:">Producto4</td>
+    <td data-label="Marca:">Acme</td>
+    <td data-label="Modelo:">2004</td>
+    <td data-label="Ubicacion:">Bodega</td>
+    <td data-label="Descripcion:">Describeme</td>
+    <td data-label="Precio:">$20000</td>
+    <td><span style="text-decoration: underline;"><a href="actualizarprod.html">Modificar</a></span></td>
+    <td>Eliminar</td>
   </tr>
   </tbody>
   </table>
-  <p><a href="agregarprod.html">Agregar producto al stock </a></p>
-
+  
 </div>
+<div>
+<p><img src="../media/mas.png" width="20" height="20"><a href="agregarprod.html">Agregar producto al stock </a></p>
+<p><img src="../media/reporte.png" width="20" height="20"><a href="agregarprod.html">Generar reporte de inventario</a></p>
+</div>
+
 </section>
 <footer class="section footpage">
 		<div class="texto-azul">Dirección calle xx-xx-xx Telefono xxxxxx siguenos en nuestras redes</div>
