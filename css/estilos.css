@@ -100,28 +100,59 @@ display: flex;
 
   position:relative;
   display:flex;
-  width: 30%;
-  height: 30%;
-  justify-content: space-between;
-  float: left;
+width: 800px;
+
+  text-align: center;
 }
-.empresa{
-  width: 30%;
-  height: 30%;
-  }
+
+
+
+
 
 
 .titulo{
 
     font-size: 30px;
+    width: 10px;
+    height: 30px;
+    text-align: center;
+    padding: 80px;
+    top: 30px;
+
     text-align: center;
 
 }
 
 .ptexto{
-    font-size: 25px;
+  position: relative;
+  display: flex;
+  width: 400px;
+  height: 10px;
+float: left ;
+
+  padding-top: 20px;
+
+
+    font-size: 20px;
     text-align:justify;
+
 }
+.foto{
+
+width: 900px;
+
+float:right;
+padding-top: 10px;
+top: 50px;
+margin-right: 20px;
+
+
+
+
+
+  }
+
+
 .nav{
     position: fixed;
     display:flex;
@@ -485,10 +516,11 @@ display: float;
     }
     .ptexto{
       font-size: 10px;
+
     }
-    .empresa{
-      width: 35%;
-      height: 35%;
+    .imag{
+      width: 200px;
+      height: 200px;
     }
 
   .nav{
