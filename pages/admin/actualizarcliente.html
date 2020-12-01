@@ -4,53 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Agregar Cliente</title>
-	<link rel="stylesheet" href="../css/estilos.css">
+    <title>Actualizar cliente</title>
+	<link rel="stylesheet" href="../../css/estilos.css">
 </head>
 <body id="actualizar">
   <section class="header">
-	<nav class="nav">
-		<a href="../index.html" class="marca">ACME</a>
-		<ul id=menu class=menu>
-			<li data-menuanchor="inicio">
-				<a href="../index.html">&iquest;Qui&eacute;nes somos?</a>
+  <nav class="nav">
+    <a href="../../index.html" class="marca">ACME</a>
+    <ul id=menu class=menu>
+      <li data-menuanchor="inicio">
+				<a href="gestiondeusuarios.html">Usuarios</a>
 			</li>
-			<li data-menuanchor="ingresa" >
-					<a href="contacto.html">Contacto</a>
-			</li>
-			<li data-menuanchor="unete">
-						<a href="login.html">Logueo</a>
-			</li>
-		</ul>
-	</nav>
+      <li data-menuanchor="ingresa" >
+          <a href="stock.html">Stock</a>
+      </li>
+      <li data-menuanchor="unete">
+            <a href="../login.html">Salir</a>
+      </li>
+    </ul>
+  </nav>
 </section>
-		<section class="formu">
-		<form  method="post" class="form">
+<section class="formu">
+		<form  method="post" class="form" action="gestiondeusuarios.html">
 
         <div class="field-wrap">
-          <h1>Modificar cliente</h1>
+          <h1>Modificar Cliente</h1>
         </div>
         <div class="field-wrap">
           <label id="actualizar">Nombre<span class="req"></span></label>
-          <input type="text" name="name" value="">
+          <input type="text" placeholder="Pedro Perez" name="name" value="">
         </div>
         <div class="field-wrap">
           <label id="actualizar">Cedula<span class="req"></span></label>
-          <input type="text" name="cedula" value="">
+          <input type="text" placeholder="10764543" name="cedula" value="">
         </div>
         <div class="field-wrap">
           <label id="actualizar">Direccion<span class="req"></span></label>
-          <input type="email" name="direccion" value="">
+          <input type="email" placeholder="calle xxx xxx" name="direccion" value="">
         </div>
         <div class="field-wrap">
           <label id="actualizar">Telefono<span class="req"></span></label>
-          <input type="text" name="telefono" value="">
+          <input type="text" placeholder="3127586855" name="telefono" value="">
         </div>
         <div class="field-wrap">
-          <label id="actualizar">Credito<span class="req"></span></label>
-          <input type="text" name="credito" value="">
+          <label id="actualizar">Cuenta<span class="req"></span></label>
+          <input type="text" placeholder="#######" name="cuenta" value="">
         </div>
-          <button type="submit" class="button button-block">Agregar</button>
+          <button type="submit" class="button button-block">Actualizar</button>
           </div>
 		</form>
   </section>

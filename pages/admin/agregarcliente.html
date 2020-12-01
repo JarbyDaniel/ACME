@@ -4,59 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Agregar Producto</title>
-	<link rel="stylesheet" href="../css/estilos.css">
+    <title>Agregar Cliente</title>
+	<link rel="stylesheet" href="../../css/estilos.css">
 </head>
 <body id="actualizar">
   <section class="header">
 	<nav class="nav">
-		<a href="../index.html" class="marca">ACME</a>
+		<a href="../../index.html" class="marca">ACME</a>
 		<ul id=menu class=menu>
-			<li data-menuanchor="inicio">
-				<a href="../index.html">&iquest;Qui&eacute;nes somos?</a>
+      <li data-menuanchor="inicio">
+				<a href="gestiondeusuarios.html">Usuarios</a>
 			</li>
 			<li data-menuanchor="ingresa" >
-					<a href="contacto.html">Contacto</a>
+					<a href="stock.html">Stock</a>
 			</li>
 			<li data-menuanchor="unete">
-						<a href="login.html">Logueo</a>
+						<a href="../login.html">Salir</a>
 			</li>
 		</ul>
 	</nav>
 </section>
-<section class="formu">
-		<form  method="post" class="form">
+		<section class="formu">
+		<form  method="post" class="form" action="gestiondeusuarios.html">
 
         <div class="field-wrap">
-          <h1>Agregar Producto</h1>
+          <h1>Agregar cliente</h1>
         </div>
         <div class="field-wrap">
           <label id="actualizar">Nombre<span class="req"></span></label>
           <input type="text" name="name" value="">
         </div>
         <div class="field-wrap">
-          <label id="actualizar">Codigo<span class="req"></span></label>
-          <input type="text" name="codigo" value="">
+          <label id="actualizar">Cedula<span class="req"></span></label>
+          <input type="text" name="cedula" value="">
         </div>
         <div class="field-wrap">
-          <label id="actualizar">Marca<span class="req"></span></label>
-          <input type="email" name="marca" value="">
+          <label id="actualizar">Direccion<span class="req"></span></label>
+          <input type="email" name="direccion" value="">
         </div>
         <div class="field-wrap">
-          <label id="actualizar">Modelo<span class="req"></span></label>
-          <input type="text" name="modelo" value="">
+          <label id="actualizar">Telefono<span class="req"></span></label>
+          <input type="text" name="telefono" value="">
         </div>
         <div class="field-wrap">
-          <label id="actualizar">Cuenta<span class="req"></span></label>
-          <input type="text" name="cuenta" value="">
-        </div>
-        <div class="field-wrap">
-          <label id="actualizar">Descripcion<span class="req"></span></label>
-          <input type="text" name="descripcion" value="">
-        </div>
-        <div class="field-wrap">
-          <label id="actualizar">Precio<span class="req"></span></label>
-          <input type="text" name="precio" value="">
+          <label id="actualizar">Credito<span class="req"></span></label>
+          <input type="text" name="credito" value="">
         </div>
           <button type="submit" class="button button-block">Agregar</button>
           </div>

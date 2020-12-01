@@ -5,27 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Actualizar Producto</title>
-	<link rel="stylesheet" href="../css/estilos.css">
+	<link rel="stylesheet" href="../../css/estilos.css">
 </head>
 <body id="actualizar">
   <section class="header">
 	<nav class="nav">
-		<a href="../index.html" class="marca">ACME</a>
+		<a href="../../index.html" class="marca">ACME</a>
 		<ul id=menu class=menu>
-			<li data-menuanchor="inicio">
-				<a href="../index.html">&iquest;Qui&eacute;nes somos?</a>
+      <li data-menuanchor="inicio">
+				<a href="gestiondeusuarios.html">Usuarios</a>
 			</li>
 			<li data-menuanchor="ingresa" >
-					<a href="contacto.html">Contacto</a>
+					<a href="stock.html">Stock</a>
 			</li>
 			<li data-menuanchor="unete">
-						<a href="login.html">Logueo</a>
+						<a href="../login.html">Salir</a>
 			</li>
 		</ul>
 	</nav>
 </section>
 	<section class="formu">
-		<form  method="post" class="form">
+		<form  method="post" class="form" action="stock.html">
 
         <div class="field-wrap">
           <h1>Actualizar Producto</h1>
@@ -54,7 +54,7 @@
           <label id="actualizar">Precio<span class="req"></span></label>
           <input type="text" placeholder="25000" name="precio" value="">
         </div>
-          <button type="submit" class="button button-block">Actualizar</button>
+          <button type="submit" class="button button-block" >Actualizar</button>
           </div>
 		</form>
   </section>
